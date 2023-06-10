@@ -1,0 +1,223 @@
+
+#hero{
+    background-image: url("./media/pattern_japanese-pattern-1_2.5_2_0-0_0_1__27374e_526e84.png");
+    padding: 40vh 0px 40vh!important;
+    margin-top: 0px!important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.name-line{
+    background-color: #27374D;
+    padding: 1vh 1vh;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 3vh;
+    border: 1vh solid #9DB2BF;
+    min-width: fit-content;
+}
+
+#hero h1{
+    font-size: 10vh!important;
+    margin-bottom: 0px;
+    color: #DDE6ED;
+    font-family: 'Bree Serif', serif;
+    font-weight: 600;
+    font-size: 3vh;
+    margin: 0vh 2vh;
+}
+
+#hero p{
+    color: #DDE6ED;
+    font-family: 'Bree Serif', serif;
+    font-weight: 600;
+    font-size: 3vh;
+    width: 100%;
+    margin: 0vh 0vh 1vh 0vh;
+}
+
+
+
+
+#introduction{
+    background-color: #27374D
+}
+
+#introduction .ed{
+    margin: 0;
+}
+
+#introduction h1{
+    color: #DDE6ED;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#introduction h2{
+    color: #DDE6ED;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+#introduction p{
+    color: #9DB2BF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2rem;
+}
+
+#introduction li{
+    font-family: 'Kanit', sans-serif;
+    color: #9DB2BF;
+    font-size: 1.2rem;
+}
+
+#introduction img{
+    height: 100%;
+    object-fit: cover;
+}
+
+#introduction .row{
+    margin-top: 0px;
+    padding: 0 0rem;
+}
+
+#introduction hr{
+    margin: 0;
+}
+
+
+
+
+
+
+
+#projects{
+    background-color: #27374D;
+}
+
+#projects .card-body{
+    background-color: #526D82;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#projects .card{
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.793);
+    border: 0px solid;
+}
+
+#projects h1{
+    color: #DDE6ED;
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#projects p{
+    color: #DDE6ED;
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+#projects .btn{
+    --bs-btn-color: #DDE6ED!important;
+    --bs-btn-border-color: #DDE6ED!important;
+    --bs-btn-hover-color: #526D82!important;
+    --bs-btn-hover-bg: #9DB2BF!important;
+    --bs-btn-hover-border-color: #DDE6ED!important;
+}
+
+#projects img{
+    height: 225px;
+    display: inline;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#projects .row{
+    margin-top: 2rem;
+}
+
+@media (max-width:575px){
+#projects .col{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+}
+
+
+
+
+#hobbies {
+    background-color: #27374D;
+}
+#hobbies .container{
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+}
+#hobbies .bi{
+    margin: 18px;
+}
+
+#hobbies .feature-icon{
+    border-radius: 10px;
+    background-color: #526D82;
+    fill: #DDE6ED;
+}
+
+#hobbies h1{
+    color: #DDE6ED;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#hobbies h3{
+    color: #DDE6ED;
+    font-family: 'Kanit', sans-serif;
+}
+
+#hobbies p{
+    color: #9DB2BF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2rem;
+}
+
+#hobbies .row{
+    margin-top: 0px;
+    padding: 2rem 0rem;
+}
+
+#hobbies .feature{
+    padding: 0px 1rem;
+}
+
+#hobbies hr{
+    margin: 0;
+}
+
+
+
+
+#footer footer{
+    margin: 0px!important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#footer{
+    background-color: #DDE6ED;
+}
+
+#hobbies ul{
+    margin-top: 5rem;
+}

@@ -1,0 +1,82 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  width: 100%;
+}
+
+#features{
+  padding: 50px 10%;
+}
+
+
+
+#title .btn{
+  font-size: larger;
+  padding: 10px 20px;
+}
+
+#title{
+  padding: 0px 2.5%;
+}
+
+.dog{
+  border-radius: 50%;
+  margin-top: 48px;
+}
+
+#testimonial{
+  margin: 0px 48px;
+}
+
+#testimonial .row{
+  text-align: center;
+}
+
+#testimonial>div{
+  padding: 20px 48px 48px 48px;
+}
+
+#pricing .container{
+  margin-top: 50px;
+}
+
+.labrador-btn{
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.mastiff-card{
+  border-color: #212529!important;
+}
+
+.mastiff{
+  background-color: #212529!important;
+  border-color: #212529!important;
+}
+.mastiff-btn{
+  background-color: #212529;
+  border-color: #212529;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
