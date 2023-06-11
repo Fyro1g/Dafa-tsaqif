@@ -1,8 +1,6 @@
 
 #hero{
     background-image: url("./media/pattern_japanese-pattern-1_2.5_2_0-0_0_1__27374e_526e84.png");
-    padding: 40vh 0px 40vh!important;
-    margin-top: 0px!important;
     height: 100vh;
     display: flex;
     justify-content: center;
